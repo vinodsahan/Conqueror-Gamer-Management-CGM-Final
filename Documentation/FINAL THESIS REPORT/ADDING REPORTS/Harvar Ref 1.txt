@@ -1,0 +1,33 @@
+Golfarelli, M. and Rizzi, S. (2019) “A model-driven approach to automate data visualization in big data analytics,” Information Visualization, 19(1), pp. 24–47. Available at: https://doi.org/10.1177/1473871619858933.
+
+Hasan, M.M., Popp, J. and Oláh, J. (2020) “Current landscape and influence of Big Data on Finance,” Journal of Big Data, 7(1). Available at: https://doi.org/10.1186/s40537-020-00291-z. 
+Ariyaluran Habeeb, R.A. et al. (2019) “Real-time big data processing for ANOMALY DETECTION: A survey,” International Journal of Information Management, 45, pp. 289–307. Available at: https://doi.org/10.1016/j.ijinfomgt.2018.08.006. 
+Ariyaluran Habeeb, R.A. et al. (2019) “Real-time big data processing for ANOMALY DETECTION: A survey,” International Journal of Information Management, 45, pp. 289–307. Available at: https://doi.org/10.1016/j.ijinfomgt.2018.08.006. 
+Chin, S., Vos, J. and Weaver, J. (2019) “Machine learning and JavaFX,” The Definitive Guide to Modern Java Clients with JavaFX, pp. 551–578. Available at: https://doi.org/10.1007/978-1-4842-4926-0_13. 
+Qin, S.J. and Chiang, L.H. (2019) “Advances and opportunities in machine learning for Process Data Analytics,” Computers &amp; Chemical Engineering, 126, pp. 465–473. Available at: https://doi.org/10.1016/j.compchemeng.2019.04.003. 
+Xu, H. (no date) “Machine learning based data analytics for IOT devices.” Available at: https://doi.org/10.32657/10356/72342. 
+Lampropoulos, G. (2022) “Artificial Intelligence, Big Data, and machine learning in industry 4.0,” Encyclopedia of Data Science and Machine Learning, pp. 2101–2109. Available at: https://doi.org/10.4018/978-1-7998-9220-5.ch125. 
+(no date) What is use case diagram? Available at: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/ (Accessed: February 5, 2023). 
+“≪UML≫ 2000 — the Unified Modeling Language” (2000) Lecture Notes in Computer Science [Preprint]. Available at: https://doi.org/10.1007/3-540-40011-7. 
+(no date) Software process. Available at: http://asethome.org/soft/soft_Process2.html (Accessed: December 10, 2022). 
+The lowdown on test-driven development (no date) Perfecto by Perforce. Available at: https://www.perfecto.io/blog/test-driven-development (Accessed: December 10, 2022). 
+Differences between waterfall and iterative model (2019) WADIC. Available at: https://wadic.net/differences-between-waterfall-vs-iterative-vs-rad-model/ (Accessed: December 10, 2022). 
+techthug99 (2020) Iterative waterfall model: Software engineering, Geektonight. Available at: https://www.geektonight.com/iterative-waterfall-model-software-engineering/ (Accessed: December 10, 2022). 
+Priya_dharshini__ (2022) Statistical Data Analysis Techniques in machine learning, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2021/06/must-know-statistical-data-analysis-techniques-in-machine-learning/#:~:text=In%20Machine%20Learning%2C%20Data%20Analysis,conclusions%20and%20supporting%20decision%20making. (Accessed: December 9, 2022). 
+Biswal, A. (2022) Top 14 artificial intelligence (AI) applications in 2023: Simplilearn, Simplilearn.com. Simplilearn. Available at: https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/artificial-intelligence-applications (Accessed: December 8, 2022). 
+Huberty, J. et al. (2019) “Efficacy of the mindfulness meditation mobile app ‘calm’ to reduce stress among college students: Randomized Controlled Trial,” JMIR mHealth and uHealth, 7(6). Available at: https://doi.org/10.2196/14273. 
+Pettit, M. et al. (2021) 10 benefits of time management - lucemi consulting, Lucemi Consulting: Productivity and Time Management Coach. Available at: https://lucemiconsulting.co.uk/benefits-of-time-management/ (Accessed: December 8, 2022). 
+(2021) YouTube. YouTube. Available at: https://www.youtube.com/watch?v=iONDebHX9qk&amp;t=7s (Accessed: December 8, 2022). 
+Posture: Don't be a slouch! - spineuniverse (no date). Available at: https://www.spineuniverse.com/wellness/body-mechanics/heads-posture-dont-slouch (Accessed: December 7, 2022). 
+Risk for noise-induced hearing loss from use of portable media players ... (no date). Available at: https://www.researchgate.net/publication/247450989_Risk_for_Noise-Induced_Hearing_Loss_From_Use_of_Portable_Media_Players_A_Summary_of_Evidence_Through_2008 (Accessed: December 7, 2022). 
+Tension headaches: Symptoms, causes, &amp; treatments (no date) Cleveland Clinic. Available at: https://my.clevelandclinic.org/health/diseases/8257-tension-type-headaches (Accessed: December 7, 2022). 
+(2021) YouTube. YouTube. Available at: https://www.youtube.com/watch?v=9kt5G9VbjuA (Accessed: December 7, 2022). 
+Dong, C.-Z. and Catbas, F.N. (2020) “A review of Computer Vision–based structural health monitoring at local and global levels,” Structural Health Monitoring, 20(2), pp. 692–743. Available at: https://doi.org/10.1177/1475921720935585. 
+Tucker, F. (2019) Top 10 computer related health problems, MicroHealth. Available at: https://www.microhealthllc.com/top-ten-computer-related-health-problems/ (Accessed: December 7, 2022). 
+GameLoop official 2022 (no date) The Best Android Emulator for PC. Available at: https://www.gameloop.com/ (Accessed: December 7, 2022). 
+Update Drivers &amp; Optimal Playable Settings (no date) NVIDIA. Available at: https://www.nvidia.com/en-us/geforce/geforce-experience/ (Accessed: December 7, 2022). 
+On steam (no date) on Steam. Available at: https://store.steampowered.com/app/1001520/_/#:~:text=OS%3A%20Windows%20XP%2FVista%2F,at%20least%20512MB%20of%20VRAM. (Accessed: December 7, 2022). 
+Top 15 most popular PC games of 2022 (2022) The Game Statistics Authority : ActivePlayer.io. Available at: https://activeplayer.io/top-15-most-popular-pc-games-of-2022/ (Accessed: December 7, 2022). 
+Top 30 most addictive games (no date) Wondershare DemoCreator. Available at: https://democreator.wondershare.com/screen-recorder/top-most-addictive-games.html (Accessed: December 7, 2022). 
+Hopkins, S. (2022) Gaming addiction report 2022, Delamere. Available at: https://delamere.com/blog/gaming-addiction-report-2022 (Accessed: December 7, 2022). 
+Kuss, D.J. and Griffiths, M.D. (2011) “Internet gaming addiction: A systematic review of empirical research,” International Journal of Mental Health and Addiction, 10(2), pp. 278–296. Available at: https://doi.org/10.1007/s11469-011-9318-5. 

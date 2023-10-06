@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="paneCGM" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: #132031;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cgm.cgmMainPageController">
+   <left>
+      <AnchorPane fx:id="slider" prefHeight="620.0" prefWidth="350.0" style="-fx-background-color: #0D1724;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="MenuVbox" layoutY="140.0" prefHeight="580.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="btnStart" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#StartButtonOnAction" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Home" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="HomeView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/dash.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnCapture" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Capture" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="CaptureView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/capture.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnGmaingMode" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Gamming Mode" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="GameView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/gaming mode.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnFPS" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#countFPS" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="FPS Counter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="FpsView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/fps.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnLogin" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#LoginButtonOnAction" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Log In" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="LoginView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/Log in.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnSignIn" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#SignInButtonOnAction" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Sign In" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="SigninView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/Sign in.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnExit" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#ExitButtonOnAction" prefHeight="100.0" prefWidth="350.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Exit" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="ExitView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/exit.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="100.0" prefWidth="1200.0" style="-fx-background-color: #0D1724;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="35.0" prefWidth="1200.0" style="-fx-background-color: #0D1724;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fx:id="SettingsImageView" fitHeight="30.0" fitWidth="30.0" layoutX="1133.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Image/Settings.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="MenuImageView" fitHeight="30.0" fitWidth="30.0" layoutX="1163.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Image/Home/exit.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblFPS" layoutX="14.0" layoutY="4.0" prefHeight="27.0" prefWidth="101.0" textFill="#39ff14">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <HBox fx:id="Hbox" prefHeight="65.0" prefWidth="850.0" style="-fx-background-color: #132031;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="350.4" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0">
+               <children>
+                  <Button fx:id="BtnMonitor" graphicTextGap="15.0" mnemonicParsing="false" onAction="#setOnAction" prefHeight="66.0" prefWidth="425.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="Hardware Monitoring" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="monitorHardwareView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/Monitor.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnAchivevements" graphicTextGap="15.0" mnemonicParsing="false" onAction="#setOnAction1" prefHeight="66.0" prefWidth="425.0" stylesheets="@../../../CGM_CSS/CGM_Home.css" text="User Acivements" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="AcivementView" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Image/Home/Achive ori.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children></HBox>
+            <Label fx:id="lblMenuBack" layoutX="14.0" layoutY="50.0" text="Menu" textFill="#00e2ff">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="MenuView1" fitHeight="30.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Image/Home/menu-bar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="lblMenu" layoutX="14.0" layoutY="50.0" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="MenuView" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Image/Home/menu-bar (White).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane fx:id="anochorMidle" prefHeight="620.0" prefWidth="850.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="WallpaperView1" layoutX="50.0" layoutY="61.0" prefHeight="620.0" prefWidth="850.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fx:id="Image1" fitHeight="620.0" fitWidth="850.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.40000000000009095" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../../../../Image/Backgrounds_Images/1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="WallpaperView2" layoutX="-33.0" layoutY="-57.0" maxWidth="620.0" prefHeight="850.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fx:id="Image2" fitHeight="620.0" fitWidth="850.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.40000000000009095" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../../../../Image/Backgrounds_Images/1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="WallpaperView3" layoutX="-13.0" layoutY="-86.0" prefHeight="620.0" prefWidth="850.0" style="-fx-background-color: #00E2FF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fx:id="Image3" fitHeight="620.0" fitWidth="850.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../../../../Image/Backgrounds_Images/5.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="panehardware" prefHeight="620.0" prefWidth="850.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <AnchorPane fx:id="paneAchievement" prefHeight="620.0" prefWidth="850.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

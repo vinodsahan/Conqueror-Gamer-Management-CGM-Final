@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="580.0" maxWidth="920.0" minHeight="580.0" minWidth="920.0" prefHeight="580.0" prefWidth="920.0" style="-fx-background-color: #D6E8EE;" styleClass="backgroundColor" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cgm.TheGameGUI">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="380.0" fitWidth="625.0" layoutX="5.0" layoutY="100.0" pickOnBounds="true" />
+      <TextField fx:id="txtAnswer" layoutX="396.0" layoutY="507.0" prefHeight="38.0" prefWidth="128.0">
+         <font>
+            <Font name="Centaur" size="22.0" />
+         </font></TextField>
+      <Text fx:id="lblLevelCount" fill="#020091" fontSmoothingType="LCD" layoutX="33.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level " wrappingWidth="128.00006103515625">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font></Text>
+      <Text fx:id="lblLevel" disable="true" fill="#0c0075" fontSmoothingType="LCD" layoutX="33.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="284.8000244140626">
+         <font>
+            <Font size="33.0" />
+         </font></Text>
+      <Text fx:id="lblRemainingTime" fill="#0c0075" fontSmoothingType="LCD" layoutX="606.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time Remaining :  " wrappingWidth="223.9999755859376">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Text>
+      <Text fx:id="lblRemainingTimeCount" layoutX="830.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="82.40002441406227">
+         <font>
+            <Font name="Centaur" size="62.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6032360196113586" green="0.3499999940395355" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9684210419654846" green="0.16140350699424744" blue="0.16140350699424744" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Text>
+      <Button fx:id="btnNext" defaultButton="true" layoutX="552.0" layoutY="509.0" mnemonicParsing="false" onAction="#btnNextLevel" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #02457A;" text="NEXT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Label fx:id="lblAnswer" layoutX="220.0" layoutY="513.0" prefHeight="36.0" prefWidth="155.0" text="Your Answer">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Button fx:id="btnSubmit" defaultButton="true" layoutX="675.0" layoutY="509.0" mnemonicParsing="false" onAction="#btnSubmitOnAction" opacity="0.71" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #02457A;" text="SUBMIT" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="btnNumbers" />
+            <String fx:value="btnNumbers:hover" />
+            <String fx:value="btnNumbers:pressed" />
+         </styleClass>
+      </Button>
+      <Button fx:id="mainMenubtn" defaultButton="true" layoutX="33.0" layoutY="511.0" mnemonicParsing="false" onAction="#MainMenuBottonOnAction" prefHeight="39.0" prefWidth="72.0" style="-fx-background-color: #02457A;" text=" Menu" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="btnMenu" />
+            <String fx:value="btnMenu:hover" />
+            <String fx:value="btnMenu:pressed" />
+         </styleClass>
+      </Button>
+      <Text fx:id="txtComment" fontSmoothingType="LCD" layoutX="650.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="265.60001220703134">
+         <font>
+            <Font name="Century" size="17.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.4699999988079071" green="0.06620558351278305" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.1259259283542633" blue="0.1259259283542633" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fx:id="playerScore" fill="#0c0075" fontSmoothingType="LCD" layoutX="660.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="playerScore : " wrappingWidth="223.9999755859376">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="levelScore" fill="#0c0075" fontSmoothingType="LCD" layoutX="660.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="levelScore    :" wrappingWidth="223.9999755859376">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnScoreSave" layoutX="791.0" layoutY="508.0" mnemonicParsing="false" onAction="#ScoreSavebuttonOnAction" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #02457A;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblName" layoutX="664.0" layoutY="364.0" prefHeight="35.0" prefWidth="215.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="664.0" layoutY="416.0" prefHeight="35.0" prefWidth="215.0" />
+      <Button fx:id="btnExit" layoutX="125.0" layoutY="511.0" mnemonicParsing="false" onAction="#exitBottonOnAction" prefHeight="39.0" prefWidth="72.0" style="-fx-background-color: #FF5349;" text="Exit" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

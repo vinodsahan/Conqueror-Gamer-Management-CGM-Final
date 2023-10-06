@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="lblSignIn1" prefHeight="580.0" prefWidth="520.0" style="-fx-background-color: #D6E8EE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cgm.SignInController">
+   <children>
+      <AnchorPane prefHeight="82.0" prefWidth="520.0" style="-fx-background-color: #97CABD;">
+         <children>
+            <ImageView fx:id="ShieldmageView" fitHeight="42.0" fitWidth="69.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Image/shield.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblSign" layoutX="73.0" layoutY="23.0" text="Sign In" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="94.0" layoutY="132.0" text="First Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFirstName" layoutX="92.0" layoutY="160.0" prefHeight="26.0" prefWidth="336.0" promptText="First Name" />
+      <Label layoutX="92.0" layoutY="201.0" text="Last Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtLastName" layoutX="92.0" layoutY="227.0" prefHeight="25.0" prefWidth="336.0" promptText="Last Name" />
+      <Label layoutX="92.0" layoutY="265.0" text="Username">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="92.0" layoutY="288.0" prefHeight="25.0" prefWidth="336.0" promptText="Username" />
+      <Label layoutX="92.0" layoutY="326.0" text="Password">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPassword" layoutX="92.0" layoutY="353.0" prefHeight="25.0" prefWidth="336.0" promptText="Password" />
+      <Label layoutX="92.0" layoutY="392.0" text="Confirm Password">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtConfirmPassword" layoutX="92.0" layoutY="418.0" prefHeight="25.0" prefWidth="336.0" promptText="Confirm Passwrod" />
+      <Button fx:id="btnSignin" layoutX="92.0" layoutY="477.0" mnemonicParsing="false" onAction="#SignInbuttonOnAction" prefHeight="26.0" prefWidth="336.0" style="-fx-background-color: #02457A;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblSignIn" alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="99.0" prefHeight="18.0" prefWidth="468.0" textFill="#0a8f34">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConfirmPassword" alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="392.0" prefHeight="19.0" prefWidth="414.0" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="92.0" layoutY="523.0" mnemonicParsing="false" onAction="#BackbuttonOnAction" prefHeight="27.0" prefWidth="336.0" style="-fx-background-color: #FF5349;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

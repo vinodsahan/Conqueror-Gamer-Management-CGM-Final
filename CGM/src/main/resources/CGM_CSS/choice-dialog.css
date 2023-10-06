@@ -1,0 +1,12 @@
+.choice-box {
+    -fx-background-color: #132D3E;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-background-color: #132031;
+    -fx-text-fill: white;
+}

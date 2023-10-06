@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="620.0" prefWidth="850.0" style="-fx-background-color: #0D1724;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cgm.AchievementController">
+    <VBox fx:id="root" alignment="CENTER" prefHeight="620.0" prefWidth="850.0" spacing="20" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Label alignment="CENTER" style="-fx-font-size: 24; -fx-font-weight: bold;" text="Achievements" textFill="WHITE">
+         <graphic>
+            <ImageView fx:id="AchiveImage" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Image/Achievement/Achive ori.png" />
+               </image>
+            </ImageView>
+         </graphic></Label>
+        <HBox alignment="CENTER_LEFT" prefHeight="127.0" prefWidth="850.0" spacing="20" style="-fx-background-color: #132D3E;">
+            <ImageView fx:id="assassinsCreedImage" fitHeight="127.0" fitWidth="100.0">
+            <image>
+               <Image url="@../../../../../../Image/Achievement/ACOdysseyCoverArt.png" />
+            </image></ImageView>
+            <VBox prefHeight="127.0" spacing="10">
+                <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Assassin's Creed Odyssey" textFill="#00e2ff" />
+                <Label fx:id="assassinsCreedTimeLabel" textFill="WHITE" />
+                <Label fx:id="assassinsCreedGemsLabel" textFill="WHITE" />
+                <Label fx:id="assassinsCreedSkillsLabel" textFill="WHITE" />
+            </VBox>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="127.0" prefWidth="800.0" spacing="20" style="-fx-background-color: #132D3E;">
+            <ImageView fx:id="callOfDutyImage" fitHeight="127.0" fitWidth="100.0">
+            <image>
+               <Image url="@../../../../../../Image/Achievement/Call_of_Duty_Modern_Warfare_2_(2009)_cover.png" />
+            </image></ImageView>
+            <VBox prefHeight="127.0" spacing="10">
+                <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Call of Duty Modern Warfare" textFill="#00e2ff" />
+                <Label fx:id="callOfDutyTimeLabel" textFill="WHITE" />
+                <Label fx:id="callOfDutyGemsLabel" textFill="WHITE" />
+                <Label fx:id="callOfDutySkillsLabel" textFill="WHITE" />
+            </VBox>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="127.0" prefWidth="800.0" spacing="20" style="-fx-background-color: #132D3E;">
+            <ImageView fx:id="pubgImage" fitHeight="127.0" fitWidth="100.0">
+            <image>
+               <Image url="@../../../../../../Image/Achievement/Pubgbattlegrounds.png" />
+            </image></ImageView>
+            <VBox prefHeight="127.0" spacing="10">
+                <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="PUBG" textFill="#00e2ff" />
+                <Label fx:id="pubgTimeLabel" textFill="WHITE" />
+                <Label fx:id="pubgGemsLabel" textFill="WHITE" />
+                <Label fx:id="pubgSkillsLabel" textFill="WHITE" />
+            </VBox>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="127.0" prefWidth="850.0" spacing="20" style="-fx-background-color: #132D3E;">
+            <ImageView fx:id="witcherImage" fitHeight="127.0" fitWidth="100.0">
+            <image>
+               <Image url="@../../../../../../Image/Achievement/Witcher_3_cover_art.jpg" />
+            </image></ImageView>
+            <VBox prefHeight="127.0" spacing="10">
+                <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="The Witcher 03" textFill="#00e2ff" />
+                <Label fx:id="witcherTimeLabel" textFill="WHITE" />
+                <Label fx:id="witcherGemsLabel" textFill="WHITE" />
+                <Label fx:id="witcherSkillsLabel" textFill="WHITE" />
+            </VBox>
+        </HBox>
+    </VBox>
+</AnchorPane>

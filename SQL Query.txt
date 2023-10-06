@@ -1,0 +1,6 @@
+SELECT * FROM user_login;
+
+INSERT INTO user_login (firstname, lastname, username, password) VALUES ('Rivi', 'Thushara', 'rivithushara', 'rivi');
+
+
+DELETE FROM user_login WHERE account_id=1;

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cgm.SetUpController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D6E8EE;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="SetUpImageView" fitHeight="290.0" fitWidth="228.0" layoutX="6.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Image/SetUP-File.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane fx:id="btnExit" prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: #97CABD;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblSetup" layoutX="137.0" layoutY="80.0" text="Set Up" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font></Label>
+            <Button fx:id="btnLogIn" layoutX="83.0" layoutY="167.0" mnemonicParsing="false" onAction="#LoginButtonOnAction" prefHeight="40.0" prefWidth="219.0" style="-fx-background-color: #02457A;" text="Log In" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSignIn" layoutX="83.0" layoutY="238.0" mnemonicParsing="false" onAction="#SignInButtonOnAction" prefHeight="40.0" prefWidth="219.0" style="-fx-background-color: #02457A;" text="Sign In " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="IconImageView" fitHeight="34.0" fitWidth="48.0" layoutX="176.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Image/setUp.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnSetUpExit" layoutX="117.0" layoutY="307.0" mnemonicParsing="false" onAction="#ExitButtonOnAction" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #FF5349;" text="Exit" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
